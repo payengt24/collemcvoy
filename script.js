@@ -34,7 +34,7 @@ function onReady() {
         $list.empty();
 
         if (sort === true) {
-            //Rotating caret symbol
+            //Rotate caret symbol down
             $('.up').css({
                 transform: 'rotate(180deg)'
             });
@@ -45,7 +45,7 @@ function onReady() {
 
             sort = false
         } else {
-            //Rotating caret symbol
+            //Rotate caret symbol up
             $('.up').css({
                 transform: 'rotate(0deg)'
             });
@@ -58,7 +58,7 @@ function onReady() {
         }
     });
 
-
+    //Display result
     function listElement(element) {
         $list.append(`<tr>
         <td>${element.name}</td>
