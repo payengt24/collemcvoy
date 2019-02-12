@@ -3,7 +3,6 @@ import React from "react";
 
 const ResultList = props => (
 
-  
   <div id="container">
   <table id="dataTable">
   <thead>
