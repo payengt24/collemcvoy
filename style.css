@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: "campton", sans-serif;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background: #003a5f;
+    color: white;
+    font-size: 40px;
+}
+
+#mcvoy {
+    color: #00bbe3;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.up {
+    display: inline-block;
+}
+#container {
+    margin: 25px 150px 75px;
+}
+
+#dataTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#dataTable td, #dataTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#dataTable tr:nth-child(even) {
+    background-color: #E1E1DF;
+}
+
+#dataTable tr:hover {
+    background-color: #D7D4CC;
+}
+
+#dataTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #CCD4DB;
+    color: white;
+}
+
