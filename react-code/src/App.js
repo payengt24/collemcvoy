@@ -13,10 +13,12 @@ class App extends Component {
     caretSymbol: ''
   }
 
+  //call function to fetch data
   componentDidMount() {
   this.getData()
   }
 
+  //fetch data
   getData = () => {
     axios({
       method: 'GET',
@@ -34,6 +36,7 @@ class App extends Component {
     })
   }
 
+  //sorting star counts
   handleStarSort = () => {
     console.log(this.state.sort)
     if(this.state.sort === true) {
