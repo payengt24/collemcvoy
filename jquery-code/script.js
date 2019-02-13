@@ -18,7 +18,7 @@ function onReady() {
         return data;
     }
 
-    //Displaying results on page- repo name, description, and stars count, 
+    //Getting data/displaying data- repo name, description, and stars count, 
     getData()
         .then(response => {
             data = response;

@@ -42,7 +42,7 @@ class App extends Component {
       })
       this.setState({
         data: starListdescent,
-        sort: false,
+        sort: !this.state.sort,
         caretSymbol: 'down'
       })
     }
@@ -53,7 +53,7 @@ class App extends Component {
       })
       this.setState({
         data: starListAsescent,
-        sort: true,
+        sort: !this.state.sort,
         caretSymbol: 'up'
       })
     }  
