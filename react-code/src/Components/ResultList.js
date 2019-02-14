@@ -13,7 +13,7 @@ const ResultList = props => (
       </tr>
   </thead>
   <tbody>
-      {props.data.map(result => <tr key={result.name}>
+      {props.data.map((result, i) => <tr key={i}>
       <td>{result.name}</td>
       <td>{result.description}</td>
       <td>{result.stars}</td>
