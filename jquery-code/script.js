@@ -35,7 +35,7 @@ function onReady() {
 
         if (sort === true) {
             //Rotate caret symbol down
-            $('.up').css({
+            $('.caretSymbol').css({
                 transform: 'rotate(180deg)'
             });
 
@@ -46,7 +46,7 @@ function onReady() {
             sort = false
         } else {
             //Rotate caret symbol up
-            $('.up').css({
+            $('.caretSymbol').css({
                 transform: 'rotate(0deg)'
             });
 
