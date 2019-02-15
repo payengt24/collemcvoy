@@ -24,9 +24,6 @@ function onReady() {
             data = response;
             $list.empty();
             data.forEach(listElement)
-                .catch((error) => {
-                    console.log('error with getting data', error);
-                });
         });
 
     //Toggle star counts from descending/ascending 
